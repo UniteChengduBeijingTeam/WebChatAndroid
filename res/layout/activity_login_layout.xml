@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cdcdcd" >
+
+    <LinearLayout
+        android:id="@+id/activitylogin_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/bg_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/bg_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@drawable/bg_line" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/activitylogin_btn_loggin"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/activitylogin_form"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/login_button_nor"
+        android:text="登\t录" />
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="@dimen/padding_defalut">
+        <Button
+        android:id="@+id/activitylogin_btn_forget"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:textColor="#0000ff"
+        android:textSize="10sp"
+        android:text="忘记密码?"
+        android:layout_alignParentLeft="true" />
+        
+        <Button
+        android:id="@+id/activitylogin_btn_register"
+        android:layout_width="70dp"
+        android:layout_height="32dp"
+        android:textColor="#0000ff"
+        android:textSize="10sp"
+        android:text="新用户"
+        android:layout_alignParentRight="true" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">旷世聊天工具</string>
+    
+    <!-- HTTP Configuration -->
+    <string name="webserver_host">host</string>
+    <string name="webserver_port">port</string>
+
+</resources>

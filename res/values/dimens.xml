@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Padding Margin -->
+    <dimen name="padding_defalut">5dp</dimen>
+    
+    <!-- NavigationBar -->
+	<dimen name="navigationbar_width">-1dp</dimen>
+	<dimen name="navigationbar_height">44dp</dimen>
+	
+	<dimen name="navigationbaritem_width">50dp</dimen>
+	<dimen name="navigationbaritem_height">22dp</dimen>
+	
+	<!-- TabHostBar -->
+	<dimen name="tabhostbar_width">-1dp</dimen>
+	<dimen name="tabhostbar_height">44dp</dimen>
+    
+</resources>
